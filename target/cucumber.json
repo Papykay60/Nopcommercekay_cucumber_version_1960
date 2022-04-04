@@ -1,0 +1,605 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Below  are common steps to all Scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6527528300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User launch Chrome browser",
+            "match": {
+              "location": "stepDefination.Stepdef.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6193119000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefination.Stepdef.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3727557000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefination.Stepdef.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11287022800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Login button",
+            "match": {
+              "location": "stepDefination.Stepdef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3084627100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User view the Dashboard",
+            "match": {
+              "location": "stepDefination.Stepdef.user_view_the_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-04T14:49:09.828Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23153631500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.Stepdef.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Add a new Customer",
+        "description": "",
+        "id": "customers;add-a-new-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3306419500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on customers Menu",
+            "match": {
+              "location": "stepDefination.Stepdef.user_click_on_customers_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7498501100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on customers Menu item",
+            "match": {
+              "location": "stepDefination.Stepdef.click_on_customers_menu_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9734777100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on Add new button",
+            "match": {
+              "location": "stepDefination.Stepdef.click_on_add_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3023811800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User can view Add new customer page",
+            "match": {
+              "location": "stepDefination.Stepdef.user_can_view_add_new_customer_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6167792100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter customer info",
+            "match": {
+              "location": "stepDefination.Stepdef.user_enter_customer_info()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2911284200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on save button",
+            "match": {
+              "location": "stepDefination.Stepdef.click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3142658300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User can view confirmation message \"The new customer has been added succesfully\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The new customer has been added succesfully\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefination.Stepdef.user_can_view_confirmation_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2824306200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefination.Stepdef.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Below  are common steps to all Scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5011274200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User launch Chrome browser",
+            "match": {
+              "location": "stepDefination.Stepdef.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6358760300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefination.Stepdef.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4811061200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefination.Stepdef.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10828073000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Login button",
+            "match": {
+              "location": "stepDefination.Stepdef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3137491700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User view the Dashboard",
+            "match": {
+              "location": "stepDefination.Stepdef.user_view_the_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-04T14:50:43.464Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6000372400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.Stepdef.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search Customer By EmailID",
+        "description": "",
+        "id": "customers;search-customer-by-emailid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3549148500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on customers Menu",
+            "match": {
+              "location": "stepDefination.Stepdef.user_click_on_customers_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6841000500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on customers Menu item",
+            "match": {
+              "location": "stepDefination.Stepdef.click_on_customers_menu_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (88292cc95f23a6d4c9c523c9fce2f921)] -\u003e id: SearchEmail] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027OLADELE\u0027, ip: \u0027192.168.153.1\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\Julius\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 88292cc95f23a6d4c9c523c9fce2f921\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat Utilities.Waithelper.WaitForElement(Waithelper.java:19)\r\n\tat pageObjects.SearchCustomerPage.SetEmail(SearchCustomerPage.java:64)\r\n\tat stepDefination.Stepdef.enter_customer_email(Stepdef.java:214)\r\n\tat ✽.Enter customer Email(file:///C:/Users/Julius/eclipse-workspace/Nopcommercekay_cucumber_001/./Features/Customers.feature:28)\r\n",
+              "duration": 31290231400,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "Enter customer Email",
+            "match": {
+              "location": "stepDefination.Stepdef.enter_customer_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Click on search button",
+            "match": {
+              "location": "stepDefination.Stepdef.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User should found Email in the Search table",
+            "match": {
+              "location": "stepDefination.Stepdef.user_should_found_email_in_the_search_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefination.Stepdef.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Below  are common steps to all Scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5004641600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User launch Chrome browser",
+            "match": {
+              "location": "stepDefination.Stepdef.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7094581800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User opens URL \"https://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefination.Stepdef.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4165100100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefination.Stepdef.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13163770500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Login button",
+            "match": {
+              "location": "stepDefination.Stepdef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3037460500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User view the Dashboard",
+            "match": {
+              "location": "stepDefination.Stepdef.user_view_the_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-04T14:52:01.537Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7077105400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.Stepdef.setup()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Search Customer by Name",
+        "description": "",
+        "id": "customers;search-customer-by-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3829465400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User click on customers Menu",
+            "match": {
+              "location": "stepDefination.Stepdef.user_click_on_customers_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8484198300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "click on customers Menu item",
+            "match": {
+              "location": "stepDefination.Stepdef.click_on_customers_menu_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (b34c183d8a208c13e0f9080c6968b1d1)] -\u003e xpath: //input[@id\u003d\u0027SearchFirstName\u0027]] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027OLADELE\u0027, ip: \u0027192.168.153.1\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\Julius\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52908}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b34c183d8a208c13e0f9080c6968b1d1\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat Utilities.Waithelper.WaitForElement(Waithelper.java:19)\r\n\tat pageObjects.SearchCustomerPage.SeachFirstname(SearchCustomerPage.java:71)\r\n\tat stepDefination.Stepdef.enter_customer_first_name(Stepdef.java:237)\r\n\tat ✽.Enter customer FirstName(file:///C:/Users/Julius/eclipse-workspace/Nopcommercekay_cucumber_001/./Features/Customers.feature:36)\r\n",
+              "duration": 69524437300,
+              "status": "failed"
+            },
+            "line": 36,
+            "name": "Enter customer FirstName",
+            "match": {
+              "location": "stepDefination.Stepdef.enter_customer_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Enter by customer Lastname",
+            "match": {
+              "location": "stepDefination.Stepdef.enter_by_customer_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002800,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Click on search button",
+            "match": {
+              "location": "stepDefination.Stepdef.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "User should find Name in theSearch table",
+            "match": {
+              "location": "stepDefination.Stepdef.user_should_find_name_in_the_search_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefination.Stepdef.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Customers",
+    "description": "",
+    "id": "customers",
+    "keyword": "Feature",
+    "uri": "file:Features/Customers.feature",
+    "tags": []
+  }
+]
